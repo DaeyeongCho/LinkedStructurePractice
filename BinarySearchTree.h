@@ -14,9 +14,11 @@ private:
 	int count;
 public:
 	BinarySearchTree();
-	//~BinarySearchTree();
+	~BinarySearchTree();
+	bool isEmpty();
+	int countNode();
 	//string searchNode(string searchValue);
-	//void insertNode(string value);
+	void insertNode(string value);
 	//string deleteNode(string value);
 };
 

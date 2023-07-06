@@ -13,7 +13,7 @@ public:
 	BinaryTreeNode* left;
 	BinaryTreeNode* right;
 public:
-	BinaryTreeNode() :parent(nullptr), left(nullptr), right(nullptr) { }
+	BinaryTreeNode() :value(NULL), parent(nullptr), left(nullptr), right(nullptr) { }
 };
 
 #endif BINARY_TREE_NODE_H
